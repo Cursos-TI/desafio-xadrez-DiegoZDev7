@@ -4,6 +4,8 @@ int main(){
 
     int bispo = 1, torre;
     int rainha = 1;
+    int cavalo;
+    int movimentoCompleto = 1;
 
     while (bispo <= 5){
         printf("Bispo se move para cima e direita\n");
@@ -21,7 +23,7 @@ int main(){
     {
         printf("A torre se move para a direita\n");
     }
-    
+
      //cavalo
     while (movimentoCompleto--)
     {
