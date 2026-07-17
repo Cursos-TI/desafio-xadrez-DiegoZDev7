@@ -22,5 +22,14 @@ int main(){
         printf("A torre se move para a direita\n");
     }
     
+     //cavalo
+    while (movimentoCompleto--)
+    {
+        for (cavalo = 1; cavalo <= 2; cavalo++)
+        {
+            printf("Cavalo se move para baixo\n");
+        }
+        printf("Cavalo se move para esquerda\n");
+    }
     return 0;
 }
